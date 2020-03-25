@@ -2284,7 +2284,7 @@ body {
   transition: all .2s;
 }
 .cid-qx5sc7hoEt .navbar.navbar-short .navbar-toggler-right {
-  top: 20px;
+ /*  top: 20px; */
 }
 .cid-qx5sc7hoEt .navbar.navbar-short .navbar-logo a {
   font-size: 2.5rem !important;
@@ -2305,7 +2305,8 @@ body {
   height: 18px;
   cursor: pointer;
   transition: all .2s;
-  top: 1.5rem;
+ /*  top: 1.5rem; */
+ top:30px;
   right: 1rem;
 }
 .cid-qx5sc7hoEt .navbar-short button.navbar-toggler{
