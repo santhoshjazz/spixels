@@ -2538,15 +2538,16 @@ body {
 
 
 /* Custum style */
-.background .content,.team .content{
+.background .content,.team .content,.green .content{
 	padding:2rem
 }
 .background{
 	background:#000;
 }
-.background h4,.background p{
+.background h2,.background p,.background h4{
 	color:#fff;
 }
+
 .cid-qx5qWEY6aU.exhibition .card-box,
 .cid-qx5qWEY6aU.jury .card-box,
 .cid-qx5qWEY6aU.team .card-box{
@@ -2575,7 +2576,13 @@ body {
 .team{
 	background:#f74426;
 }
-
+.team h2,.team p,.team h4{
+	color:#fff;
+}
+.green h2,.green p{color:#fff;}
+#contact.cid-qx5qWEY6aU{
+	background:#eeeeee;
+}
 
 
 #upload {
@@ -2634,7 +2641,7 @@ body {
 	padding-top:5px;
 }
 .clear{
-	background-color: #f8f9fa;
+	background-color: #82ca28;
     border-color: #f8f9fa;
     font-weight: 500;
     border-width: 2px;
@@ -2655,4 +2662,106 @@ body {
 .clear:hover{
 	background-color: #e2e6ea;
     border-color: #dae0e5;
+}
+
+/*-------------------26-3-2020--------------------------*/
+.nav-link:focus, .nav-link:hover{
+	outline:0;
+}
+.green{
+	background:#82ca28
+}
+.mbr-gallery-layout-default{
+	font-size:0;
+}
+
+/*Testimonial*/
+.team_member .card-main {
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 8px 0px #283593
+}
+
+.team_member .card-0 {
+    color: #fff;
+    background-color: #536DFE;
+    position: relative;
+    margin-left: 70px;
+    border-radius: 10px;
+    min-height: 312px;
+	width:100%;
+}
+
+.team_member .carousel-indicators li {
+    cursor: pointer;
+    border-radius: 50% !important;
+    width: 10px;
+    height: 10px
+}
+
+.team_member .profile {
+    color: #000;
+    background-color: #FFD54F;
+    position: absolute;
+    left: -70px;
+    top: 17%;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px
+}
+
+.team_member .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.team_member .open-quotes {
+    margin-left: 130px;
+    margin-top: 100px
+}
+
+.team_member .content {
+    margin-left: 150px;
+    margin-right: 80px
+}
+
+.team_member .close-quotes {
+    margin-bottom: 100px;
+    margin-right: 60px
+}
+
+@media screen and (max-width: 600px) {
+   .team_member .card-main {
+        padding: 50px 10px
+    }
+
+    .team_member .card-0 {
+        min-height: 432px
+    }
+
+    .team_member .profile {
+        top: 24%
+    }
+
+    .team_member .profile-pic {
+        width: 90px;
+        height: 90px
+    }
+
+    .team_member .open-quotes {
+        margin-left: 100px
+    }
+
+    .team_member .content {
+        margin-left: 120px;
+        margin-right: 50px
+    }
+
+    .team_member .close-quotes {
+        margin-right: 30px
+    }
 }
