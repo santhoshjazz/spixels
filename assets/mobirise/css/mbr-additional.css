@@ -2308,6 +2308,9 @@ body {
   top: 1.5rem;
   right: 1rem;
 }
+.cid-qx5sc7hoEt .navbar-short button.navbar-toggler{
+	top:30px;
+}
 .cid-qx5sc7hoEt button.navbar-toggler:focus {
   outline: none;
 }
