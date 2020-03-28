@@ -511,7 +511,7 @@ a.text-danger:focus {
 }
 a.text-white:hover,
 a.text-white:focus {
-  color: #b3b3b3 !important;
+  color: #000 !important;
 }
 a.text-black:hover,
 a.text-black:focus {
@@ -1337,6 +1337,7 @@ html,
 body {
   height: auto;
   min-height: 100vh;
+  overflow-x:hidden;
 }
 .cid-qx5qxieNwX {
   background-image: url("../../../assets/images/mbr-1618x1080.jpg");
@@ -2163,7 +2164,8 @@ body {
 }
 .cid-qx5sc7hoEt .navbar {
   padding: .5rem 0;
-  background: #333333;
+ /*  background: #333333; */
+  background:#71b0ff;
   transition: none;
   min-height: 77px;
 }
@@ -2246,7 +2248,8 @@ body {
   padding-bottom: 0;
 }
 .cid-qx5sc7hoEt .dropdown .dropdown-menu {
-  background: #333333;
+  /* background: #333333; */
+  background:#8785ff;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2306,11 +2309,11 @@ body {
   cursor: pointer;
   transition: all .2s;
  /*  top: 1.5rem; */
- top:35px;
+ top:30px;
   right: 1rem;
 }
 .cid-qx5sc7hoEt .navbar-short button.navbar-toggler{
-	top:35px;
+	top:30px;
 }
 .cid-qx5sc7hoEt button.navbar-toggler:focus {
   outline: none;
@@ -2546,7 +2549,7 @@ body {
 	padding:2rem
 }
 .background{
-	background:#000;
+	background:#5a5858;
 }
 .background h2,.background p,.background h4{
 	color:#fff;
@@ -2696,6 +2699,7 @@ body {
     border-radius: 10px;
     min-height: 312px;
 	width:100%;
+	padding: 70px 0;
 }
 
 .team_member .carousel-indicators li {
@@ -2737,7 +2741,9 @@ body {
     margin-bottom: 100px;
     margin-right: 60px
 }
-
+.contact_detail a{
+	color:#fff;
+}
 @media screen and (max-width: 600px) {
    .team_member .card-main {
         padding: 50px 10px
@@ -2768,4 +2774,20 @@ body {
     .team_member .close-quotes {
         margin-right: 30px
     }
+}
+@media screen and (max-width: 767px){
+	 .team_member .card-0 {
+		margin-left:0;
+		padding:0 0 70px;
+	}
+	.team_member .profile{
+		position: inherit;
+		margin-bottom: 20px;
+		left:0;
+		top:0;
+	}
+	.team_member .content{
+		margin-left:30px;
+		margin-right:30px;
+	}
 }
