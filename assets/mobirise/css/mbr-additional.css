@@ -2165,7 +2165,7 @@ body {
 .cid-qx5sc7hoEt .navbar {
   padding: .5rem 0;
  /*  background: #333333; */
-  background:#71b0ff;
+  background:#11436a;
   transition: none;
   min-height: 77px;
 }
@@ -2572,13 +2572,13 @@ body {
 	margin-bottom:0;
 }
 .exhibition a{
-	color:#f14723; 
+	color:#f14723;
 }
 .exhibition h2,.jury h2{
 	color:#fff;
 }
 .jury{
-	background:#e40778;
+	background:#ec81b8;
 }
 .team{
 	background:#f74426;
@@ -2676,7 +2676,7 @@ body {
 	outline:0;
 }
 .green{
-	background:#82ca28
+	background:#96b56f;
 }
 .mbr-gallery-layout-default{
 	font-size:0;
