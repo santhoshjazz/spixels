@@ -2549,7 +2549,10 @@ body {
 	padding:2rem
 }
 .background{
-	background:#5a5858;
+	background:#6682e6;
+}
+.background.exhibition{
+	background:#b9b152;
 }
 .background h2,.background p,.background h4{
 	color:#fff;
