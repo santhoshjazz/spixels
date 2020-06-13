@@ -2626,7 +2626,7 @@ body {
 
 .image-area::before {
     content: 'Uploaded image result';
-    color: #000;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     position: absolute;
