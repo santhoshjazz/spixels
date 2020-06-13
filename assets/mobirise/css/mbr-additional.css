@@ -2579,7 +2579,8 @@ body {
 	margin-bottom:0;
 }
 .exhibition a{
-	color:#f14723;
+	/* color:#f14723; */
+	color:#014edc;
 }
 .exhibition h2,.jury h2{
 	color:#fff;
