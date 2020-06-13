@@ -2549,10 +2549,14 @@ body {
 	padding:2rem
 }
 .background{
-	background:#6682e6;
+	/* background:#6682e6; */
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(102,130,230,1) 50%, rgba(0,212,255,0.9500175070028011) 100%);
 }
 .background.exhibition{
-	background:#b9b152;
+	/* background:#b9b152; */
+	background: rgb(105,146,166);
+	background: radial-gradient(circle, rgba(105,146,166,0.9556197478991597) 0%, rgba(185,177,82,1) 57%);
 }
 .background h2,.background p,.background h4{
 	color:#fff;
@@ -2581,7 +2585,9 @@ body {
 	color:#fff;
 }
 .jury{
-	background:#ec81b8;
+	/* background:#ec81b8; */
+	background: rgb(107,39,232);
+	background: linear-gradient(90deg, rgba(107,39,232,1) 0%, rgba(236,129,184,1) 61%);
 }
 .team{
 	background:#f74426;
@@ -2611,7 +2617,8 @@ body {
 }
 
 .image-area {
-    border: 2px dashed rgba(255, 255, 255, 0.7);
+   /*  border: 2px dashed rgba(255, 255, 255, 0.7); */
+	border: 2px dashed rgba(0, 0, 0, 0.7) ;
     padding: 1rem;
     position: relative;
 	text-align:center;
@@ -2619,7 +2626,7 @@ body {
 
 .image-area::before {
     content: 'Uploaded image result';
-    color: #fff;
+    color: #000;
     font-weight: bold;
     text-transform: uppercase;
     position: absolute;
@@ -2679,7 +2686,9 @@ body {
 	outline:0;
 }
 .green{
-	background:#96b56f;
+	/* background:#96b56f; */
+	background: rgb(149,126,164);
+	background: linear-gradient(90deg, rgba(149,126,164,1) 0%, rgba(150,181,111,1) 50%, rgba(252,176,69,1) 100%);
 }
 .mbr-gallery-layout-default{
 	font-size:0;
