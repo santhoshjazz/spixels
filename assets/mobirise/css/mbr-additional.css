@@ -2554,7 +2554,8 @@ body {
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(102,130,230,1) 50%, rgba(0,212,255,0.9500175070028011) 100%); */
 }
 .background.exhibition{
-	 background:#b9b152; 
+	/*  background:#b9b152;  */
+	background:#eade47;
 	/* background: rgb(105,146,166);
 	background: radial-gradient(circle, rgba(105,146,166,0.9556197478991597) 0%, rgba(185,177,82,1) 57%); */
 }
