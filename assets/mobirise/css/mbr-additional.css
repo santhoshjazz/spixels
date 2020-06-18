@@ -2758,6 +2758,22 @@ body {
 .contact_detail a{
 	color:#fff;
 }
+@media screen and (max-width: 767px){
+	 .team_member .card-0 {
+		margin-left:0;
+		padding:0 0 70px;
+	}
+	.team_member .profile{
+		position: inherit;
+		margin-bottom: 20px;
+		left:0;
+		top:0;
+	}
+	.team_member .content{
+		margin-left:30px;
+		margin-right:30px;
+	}
+}
 @media screen and (max-width: 600px) {
    .team_member .card-main {
         padding: 50px 10px
@@ -2788,20 +2804,7 @@ body {
     .team_member .close-quotes {
         margin-right: 30px
     }
-}
-@media screen and (max-width: 767px){
-	 .team_member .card-0 {
-		margin-left:0;
-		padding:0 0 70px;
-	}
-	.team_member .profile{
-		position: inherit;
-		margin-bottom: 20px;
-		left:0;
-		top:0;
-	}
-	.team_member .content{
-		margin-left:30px;
-		margin-right:30px;
+	section .card-box,section .content{
+		padding:0 !important
 	}
 }
