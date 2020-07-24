@@ -7,7 +7,7 @@
 .url_link a{
 	color:#0008ff; 
 }
- 
+
 /* Partner Logos */
 .slick-slide {
     margin: 0px 20px;
@@ -122,4 +122,19 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+/* Media Screen */
+@media (max-width:640px){
+	.mob_padd{
+		padding:30px 0 !important;
+	}
+	.inner_padd{
+		padding:0 !important
+	}
+}
+@media (max-width:479px){
+	.slick-slide img {
+		height:75px;
+	}
 }
