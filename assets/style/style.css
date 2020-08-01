@@ -132,6 +132,9 @@
 	.inner_padd{
 		padding:0 !important
 	}
+	.slick-slide img{
+		height:110px;
+	}
 }
 @media (max-width:479px){
 	.slick-slide img {
