@@ -165,7 +165,7 @@
 }
 
 #contact .form button[type="submit"] {
-  background: #4869e8;
+  background: #11436a;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -186,6 +186,9 @@
 	}
 	.slick-slide img{
 		height:110px;
+	}
+	#theme2020 h4{
+		font-size:18px;
 	}
 }
 @media (max-width:479px){
