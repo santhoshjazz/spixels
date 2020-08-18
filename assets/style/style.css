@@ -175,7 +175,12 @@
 #contact .form button[type="submit"]:hover {
   background: #667fdc;
 }
-
+.soc-item a,.soc-item a span{
+	vertical-align:middle;
+}
+.cid-qypAD4Wz7u .footer-lower .social-list a{
+	margin:0 5px;
+}
 /* Media Screen */
 @media (max-width:640px){
 	.mob_padd{
